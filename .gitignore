@@ -41,11 +41,13 @@ transcriptions/
 *.wmv
 *.flv
 
-# Transcription output files (exclude from global ignore)
-# *.txt
-# *.json
-# *.srt
-# *.vtt
+# YouTube projects (exclude entirely)
+audio_projects/youtube_*/
+
+# Transcription output files
+**/transcription/
+*.srt
+*.vtt
 
 # Logs
 logs/
